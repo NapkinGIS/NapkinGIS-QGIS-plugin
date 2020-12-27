@@ -1,0 +1,2 @@
+NapkinGIS plugin
+===============
