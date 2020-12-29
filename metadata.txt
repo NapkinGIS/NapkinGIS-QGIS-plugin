@@ -3,7 +3,7 @@ name=NapkinGIS
 qgisMinimumVersion=3.0
 description=Publish your QGIS projects to NapkinGIS
 category=Web
-version=2.1dev
+version=1.0
 author=NapkinGIS
 email=contact@napkingis.no
 about=Plugin for publishing your QGIS projects to the NapkinGIS publishing platform. <a href="https://www.napkingis.com">https://www.napkingis.com</a>
