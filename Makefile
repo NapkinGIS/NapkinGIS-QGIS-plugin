@@ -8,12 +8,12 @@
 
 QGISDIR = .qgis2
 NAPKINGIS_BUILDDIR = build
-PLUGINNAME = napkingis
+PLUGINNAME = napkingis-prepare
 PY_FILES = webgisplugin.py wizard.py project.py topics.py confirmation.py publish.py utils.py __init__.py
 EXTRAS = icon.png metadata.txt
 UI_FILES = publish_dialog.ui
 RESOURCE_FILES = resources_rc.py
-ZIPNAME = napkingis-qgis
+ZIPNAME = napkingis-prepare-plugin
 VERSION := $(shell grep version metadata.txt | awk -F "=" '{print $$2}')
 
 

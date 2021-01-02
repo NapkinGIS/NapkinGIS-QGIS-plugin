@@ -24,7 +24,7 @@ copyright = '2020, NapkinGIS'
 author = 'NapkinGIS'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = '2'
 

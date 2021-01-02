@@ -31,7 +31,7 @@ from .topics import TopicsPage
 from .publish import PublishPage
 from .confirmation import ConfirmationPage
 
-GISLAB_VERSION_FILE = "/etc/gislab_version"
+#GISLAB_VERSION_FILE = "/etc/gislab_version"
 
 __metadata__ = configparser.ConfigParser()
 __metadata__.read(os.path.join(os.path.dirname(__file__), 'metadata.txt'))
@@ -126,13 +126,13 @@ class WebGisPlugin:
             if qVersion() > '4.3.3':
                 QCoreApplication.installTranslator(self.translator)
 
-        self.run_in_gislab = os.path.exists(GISLAB_VERSION_FILE)
+        #self.run_in_gislab = os.path.exists(GISLAB_VERSION_FILE)
 
     def initGui(self):
         # Create action that will start plugin configuration
         self.action = QAction(
-            QIcon(":/plugins/webgisplugin/icon.png"),
-            u"Publish in NapkinGIS", self.iface.mainWindow())
+            QIcon(":/plugins/napkingis/icon.png"),
+            u"NapkinGIS – Prepare tool", self.iface.mainWindow())
         # connect the action to the run method
         self.action.triggered.connect(self.show_publish_dialog)
 

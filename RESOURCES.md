@@ -1,11 +1,13 @@
-## Before building
+## Building the plugin
 
 Run PyQt5 resource compiler before building
 ```
 pyrcc5 -o resources_rc.py resources.qrc
 ```
 
-Then run Make
+Run the plugin builder tool (pb_tool) to compile and build the plugin
 ```
-make zip
+pb_tool compile
+
+pb_tool zip
 ```

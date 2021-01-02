@@ -1,5 +1,6 @@
 __pycache__/
 *~
-napkingis-qgis*.zip
+napkingis-*.zip
 resources.py
 help/build
+zip_build
