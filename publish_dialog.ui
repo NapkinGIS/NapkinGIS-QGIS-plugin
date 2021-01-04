@@ -392,7 +392,7 @@ QGroupBox::title {
                 </size>
                </property>
                <property name="text">
-                <string>Default layer</string>
+                <string>Basemap to use</string>
                </property>
               </widget>
              </item>
@@ -509,8 +509,8 @@ QGroupBox::title {
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>726</width>
-             <height>494</height>
+             <width>348</width>
+             <height>509</height>
             </rect>
            </property>
            <property name="styleSheet">
