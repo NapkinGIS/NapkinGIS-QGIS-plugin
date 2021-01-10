@@ -6,7 +6,7 @@ category=Web
 version=1.0
 author=NapkinGIS
 email=contact@napkingis.no
-about=Plugin for preparing your QGIS projects for publishing on the NapkinGIS platform. NapkinGIS is an online platform for publishing QGIS projects, making them avaliable in a web-based map-view or for editing in a field app on mobile devices. <a href="https://web.napkingis.no">Link</a> , <a href="https://web.napkingis.no">Demo</a> , <a href="https://www.napkingis.no/about.html">Learn more</a>
+about=Plugin for preparing your QGIS projects for publishing on the NapkinGIS platform. NapkinGIS is an online platform for publishing QGIS projects, making them available in a web-based map-view or for editing in a field app on mobile devices. <a href="https://web.napkingis.no">Link</a> , <a href="https://web.napkingis.no">Demo</a> , <a href="https://www.napkingis.no/about.html">Learn more</a>
 
 homepage=https://www.napkingis.com
 icon=icon.png
