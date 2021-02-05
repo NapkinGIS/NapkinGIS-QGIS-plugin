@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/plugins/napkingis" >
-        <file>icon.png</file>
-    </qresource>
+	<qresource prefix="/plugins/napkingis" >
+		<file>icon.png</file>
+	</qresource>
 </RCC>

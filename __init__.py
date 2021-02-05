@@ -7,5 +7,5 @@
 """
 
 def classFactory(iface):
-    from .webgisplugin import WebGisPlugin
-    return WebGisPlugin(iface)
+	from .webgisplugin import WebGisPlugin
+	return WebGisPlugin(iface)
